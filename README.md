@@ -1,4 +1,4 @@
-This folder contains the experimental code and data for the paper: [Learning logic programs by discovering where not to search](https://arxiv.org/pdf/2202.09806.pdf) AAAI23
+This folder contains the experimental code and data for the paper: [Learning logic programs by discovering where not to search](https://arxiv.org/pdf/2202.09806.pdf), Andrew Cropper and Cèline Hocquette, AAAI23
 
 # Requirements
 
