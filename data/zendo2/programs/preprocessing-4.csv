@@ -1,0 +1,4 @@
+zendo(A):- piece(A,C),piece(A,B),green(B),coord1(C,D),lhs(C),coord1(B,D).
+zendo(A):- piece(A,C),red(C),piece(A,D),green(D),piece(A,B),blue(B).
+%time,133.82871985435486
+%num_progs,7659

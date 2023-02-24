@@ -1,0 +1,3 @@
+f(A,B):-movie(C,A),movie(C,B).
+f(adinaconnolly,asoderberghsteven).
+%time,21.653559923171997

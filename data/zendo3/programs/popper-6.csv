@@ -1,0 +1,12 @@
+zendo(A):- piece(A,E),strange(E),piece(A,C),coord1(E,B),contact(C,D),size(D,B).
+zendo(A):- piece(A,E),coord1(E,B),contact(E,D),size(D,B),piece(A,C),blue(C).
+zendo(A):- piece(A,C),blue(C),coord1(C,B),contact(C,D),coord1(D,B),small(B).
+zendo(A):- piece(A,B),red(B),coord1(B,D),piece(A,C),blue(C),coord1(C,D).
+zendo(A):- piece(A,C),piece(A,E),size(E,D),strange(E),contact(C,B),size(B,D).
+zendo(A):- piece(A,C),coord2(C,D),contact(C,E),coord2(E,D),coord1(E,B),large(B).
+zendo(A):- piece(A,B),coord2(B,D),piece(A,C),upright(C),strange(B),coord1(C,D).
+zendo(A):- piece(A,C),red(C),piece(A,E),coord2(E,D),contact(E,B),coord2(B,D).
+zendo(A):- piece(A,E),coord2(E,D),piece(A,C),strange(C),contact(E,B),coord2(B,D).
+zendo(A):- piece(A,E),piece(A,C),contact(C,D),coord1(E,B),large(B),green(D).
+%time,35.99606490135193
+%num_progs,8075

@@ -1,0 +1,3 @@
+next_value(A,B):-does(A,C,D),my_true_value(A,E),my_succ(B,E),c_noop(D).
+next_value(F,G):-does(F,H,I),does(J,H,I),my_true_value(J,G),c5(G).
+%time,8.468677997589111

@@ -1,0 +1,5 @@
+f(A):- has_car(A,C),has_load(C,B),roof_open(C),three_load(B).
+f(A):- has_car(A,B),has_car(A,C),roof_closed(C),roof_open(B).
+f(A):- has_car(A,B),has_load(B,E),has_car(A,C),has_load(C,D),rectangle(D),triangle(E).
+%time,27.192989826202393
+%num_progs,2536

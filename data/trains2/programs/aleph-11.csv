@@ -1,0 +1,3 @@
+f(t484).
+f(A):-has_car(A,B),roof_closed(B),has_car(A,C),two_wheels(C),roof_open(C).
+%time,4.0394508838653564

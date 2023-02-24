@@ -1,0 +1,15 @@
+f(A,B):-movie(C,B),movie(C,A).
+f(aarmelledeutsch,avergnejeanpierre).
+f(alyubomirkanev,apunchevborislav).
+f(ajuliedray,avergnejeanpierre).
+f(aantoninobruschetta,abattiatofranco).
+f(astevekalfa,agustemmanuelii).
+f(amarisaburger,aengelhardtwilhelm).
+f(asamantharnier,aapprederisfranck).
+f(amarisaburger,aklischstefan).
+f(aivankondov,asurchadzhievstefani).
+f(aandreasschwaiger,azensmichael).
+f(amaxmller,akinkelmartin).
+f(alyubomirbachvarov,apunchevborislav).
+f(alarrysontag,asoderberghsteven).
+%time,145.78752493858337

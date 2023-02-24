@@ -1,0 +1,4 @@
+f(A,B,C):- tail(A,C),one(B).
+f(A,B,C):- tail(A,E),decrement(B,D),f(E,D,C).
+%time,3.763631820678711
+%num_progs,388

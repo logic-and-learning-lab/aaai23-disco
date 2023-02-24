@@ -1,0 +1,3 @@
+f(A,B):- movie(C,A),movie(C,B).
+%time,1.5940179824829102
+%num_progs,7

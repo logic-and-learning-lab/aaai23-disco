@@ -1,0 +1,6 @@
+f(A):-tail(A,B),empty(B).
+f(C):-head(C,D),tail(C,E),head(E,F),geq(F,D),f(E).
+f(G):-head(G,H),odd(H),tail(G,I),head(I,J),geq(J,H).
+f(K):-head(K,L),decrement(L,M),one(M).
+f([6,13,20,27,28,29,33,36,39,39,40,40,41,43,57,61,63,66,69,70,74,75,76,77,78,88,91,95,97,97]).
+%time,0.9036259651184082

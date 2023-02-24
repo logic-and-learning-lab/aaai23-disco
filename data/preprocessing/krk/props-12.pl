@@ -1,0 +1,11 @@
+prop(unique_ab_c,distance).
+prop(unique_ab_cd,cell).
+prop(singleton,white).
+prop(singleton,rook).
+prop(unique_abc_d,cell).
+prop(unique_abd_c,cell).
+prop(unsat_pair,rook,king).
+prop(unsat_pair,white,black).
+prop(singleton,one).
+prop(singleton,king).
+prop(singleton,black).

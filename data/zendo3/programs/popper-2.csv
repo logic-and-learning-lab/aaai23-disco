@@ -1,0 +1,14 @@
+zendo(A):- piece(A,B),size(B,D),piece(A,C),coord1(C,D),rhs(C),coord2(B,D).
+zendo(A):- piece(A,B),coord2(B,D),medium(D),piece(A,C),red(C),size(B,D).
+zendo(A):- piece(A,C),coord1(C,D),size(C,D),piece(A,B),strange(B),red(B).
+zendo(A):- piece(A,B),piece(A,C),blue(C),contact(B,D),upright(D),red(D).
+zendo(A):- piece(A,C),coord2(C,B),small(B),coord1(C,D),size(C,D),red(C).
+zendo(A):- piece(A,C),size(C,E),piece(A,B),contact(B,D),upright(D),coord1(D,E).
+zendo(A):- piece(A,C),contact(C,B),coord1(C,D),coord1(B,D),red(B),lhs(B).
+zendo(A):- piece(A,B),rhs(B),piece(A,C),upright(C),coord1(C,D),coord2(C,D).
+zendo(A):- piece(A,B),coord1(B,D),blue(B),piece(A,C),red(C),coord1(C,D).
+zendo(A):- piece(A,C),lhs(C),contact(C,B),size(B,D),medium(D),green(B).
+zendo(A):- piece(A,C),piece(A,B),rhs(B),contact(C,D),coord1(D,E),coord2(B,E).
+zendo(A):- piece(A,B),piece(A,C),upright(B),contact(C,D),size(D,E),coord2(B,E).
+%time,42.433151960372925
+%num_progs,9852

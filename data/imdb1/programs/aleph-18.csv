@@ -1,0 +1,11 @@
+f(A,B):-movie(C,B),movie(C,A).
+f(ahubertmulzer,aklischstefan).
+f(agabriellelazure,atonetticlaudio).
+f(avincentlecoeur,avergnejeanpierre).
+f(aangelahall,aaltmanroberti).
+f(ahumecronyn,apakulaalanj).
+f(abrigittefossey,avergnejeanpierre).
+f(agabrieleferzetti,abattiatofranco).
+f(alyubomirkanev,apunchevborislav).
+f(aauroraquattrocchi,agrimaldiaurelioi).
+%time,171.65675687789917

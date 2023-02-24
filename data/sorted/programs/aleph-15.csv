@@ -1,0 +1,3 @@
+f(A):-head(A,B),tail(A,C),tail(C,D),head(D,E),geq(E,B),f(C).
+f(F):-tail(F,G),head(G,H),tail(G,I),head(I,J),geq(J,H),odd(J).
+%time,2.6419270038604736

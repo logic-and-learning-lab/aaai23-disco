@@ -1,0 +1,11 @@
+f(A,B):-movie(C,A),movie(C,B).
+f(athomasstielner,aklischstefan).
+f(akarinthaler,abraunbettinai).
+f(astevekalfa,agustemmanuelii).
+f(atommikulla,agutjahrrainer).
+f(aanthonyheald,apakulaalanj).
+f(acorradofortuna,abattiatofranco).
+f(avolkerranisch,azensmichael).
+f(aulrichmhe,astephanbernhard).
+f(astanleytucci,apakulaalanj).
+%time,186.9844512939453

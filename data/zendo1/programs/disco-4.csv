@@ -1,0 +1,3 @@
+zendo(A):- piece(A,B),contact(B,D),red(B),size(D,C),small(C).
+%time,3.6445279121398926
+%num_progs,850

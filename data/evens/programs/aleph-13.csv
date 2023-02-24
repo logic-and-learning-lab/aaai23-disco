@@ -1,0 +1,3 @@
+f(A):-head(A,B),even(B),tail(A,C),tail(C,D),f(D),f(C).
+f(E):-head(E,F),tail(E,G),head(G,H),geq(H,F),tail(G,I),head(I,J),even(J).
+%time,2.265312910079956

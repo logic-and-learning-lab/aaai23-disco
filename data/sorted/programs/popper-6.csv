@@ -1,0 +1,4 @@
+f(A):- tail(A,B),head(A,C),odd(C),head(B,C).
+f(A):- tail(A,B),f(B).
+%time,50.64263677597046
+%num_progs,1913

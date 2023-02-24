@@ -1,0 +1,14 @@
+next_control(9,black).
+next_control(8,black).
+next_control(7,white).
+next_control(6,black).
+next_control(5,black).
+next_control(4,black).
+next_control(3,black).
+next_control(2,black).
+next_control(13,black).
+next_control(12,black).
+next_control(11,black).
+next_control(10,white).
+next_control(1,white).
+%time,0.29827404022216797

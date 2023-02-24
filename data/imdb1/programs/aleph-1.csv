@@ -1,0 +1,12 @@
+f(A,B):-movie(C,A),movie(C,B).
+f(ajuliedray,avergnejeanpierre).
+f(adillonmoen,ametcalfestephen).
+f(amarisaburger,abraunbettinai).
+f(amanueladolcemascolo,asciveresmarianna).
+f(asamantharnier,avergnejeanpierre).
+f(agabriellelazure,aladogedominique).
+f(amarenschumacher,akrgnther).
+f(aandreasschwaiger,aklischstefan).
+f(atimothypaulperez,asoderberghsteven).
+f(acoralyzahonero,aromeclaudemichel).
+%time,134.64116406440735

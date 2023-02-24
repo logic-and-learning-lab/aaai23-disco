@@ -1,0 +1,4 @@
+next_value(A,B):- c_player(D),does(A,D,C),c_pressButton(C),c5(B).
+next_value(A,B):- my_true_value(A,E),c_player(D),c_noop(C),my_succ(B,E),does(A,D,C).
+%time,155.87473511695862
+%num_progs,2604

@@ -1,0 +1,4 @@
+f(A,B):-movie(C,A),movie(C,B).
+f(agabriellelazure,agustemmanuelii).
+f(asharonstone,ametcalfestephen).
+%time,39.38886117935181

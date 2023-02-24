@@ -1,0 +1,4 @@
+f(A,B):- head(A,B).
+f(A,B):- head(A,D),tail(A,E),f(E,C),sum(C,D,B).
+%time,303.5454080104828
+%num_progs,14804

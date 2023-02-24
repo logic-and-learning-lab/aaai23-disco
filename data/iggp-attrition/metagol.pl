@@ -1,0 +1,11 @@
+body_pred(true_score/3).
+body_pred(true_control/2).
+body_pred(true_claim_made_by/2).
+body_pred(does/3).
+body_pred(role/1).
+body_pred(succ/2).
+body_pred(opponent/2).
+body_pred(action_lay_claim/1).
+body_pred(action_end_game/1).
+body_pred(action_noop/1).
+body_pred(prop_gameOver/1).

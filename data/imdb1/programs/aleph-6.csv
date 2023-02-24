@@ -1,0 +1,8 @@
+f(A,B):-movie(C,B),movie(C,A).
+f(amarcocavicchioli,agrimaldiaurelioi).
+f(acoralyzahonero,atonetticlaudio).
+f(abiagiobarone,asciveresmarianna).
+f(acoralyzahonero,akappesstphane).
+f(ajuliedray,avergnejeanpierre).
+f(astevekalfa,aladogedominique).
+%time,89.26491212844849

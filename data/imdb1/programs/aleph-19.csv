@@ -1,0 +1,5 @@
+f(A,B):-movie(C,B),movie(C,A).
+f(aclaudiamessner,azensmichael).
+f(acoralyzahonero,aladogedominique).
+f(acynthiastevenson,aaltmanroberti).
+%time,67.8892548084259

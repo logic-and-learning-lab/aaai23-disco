@@ -1,0 +1,5 @@
+next_score(A,B,C):- does(A,B,D),does(A,E,D),my_true_score(A,B,C),different(B,E).
+next_score(A,B,C):- does(A,D,F),does(A,G,E),different(B,D),beats(F,E),my_true_score(A,G,C).
+next_score(A,B,C):- does(A,B,F),does(A,E,G),different(B,E),my_succ(D,C),my_true_score(A,B,D),beats(F,G).
+%time,39.03298211097717
+%num_progs,6262

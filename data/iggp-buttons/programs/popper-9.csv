@@ -1,0 +1,12 @@
+next(A,B):- my_succ(C,B),my_true(A,C).
+next(A,B):- does(A,C,D),my_input(C,D),not_my_true(A,B),c_a(D),c_p(B).
+next(A,B):- does(A,C,D),my_true(A,B),c_r(B),c_b(D),my_input(C,D).
+next(A,B):- my_true(A,B),does(A,C,D),my_input(C,D),c_r(B),c_a(D).
+next(A,B):- my_true(A,B),c_q(B),my_input(D,C),c_a(C),does(A,D,C).
+next(A,B):- my_true(A,B),my_input(D,C),c_c(C),does(A,D,C),c_p(B).
+next(A,B):- my_input(C,E),c_q(B),does(A,C,E),c_r(D),c_c(E),my_true(A,D).
+next(A,B):- does(A,C,E),c_p(D),my_true(A,D),c_q(B),c_b(E),my_input(C,E).
+next(A,B):- my_true(A,D),does(A,E,C),c_b(C),role(E),c_p(B),c_q(D).
+next(A,B):- my_true(A,D),does(A,C,E),c_r(B),role(C),c_c(E),c_q(D).
+%time,830.8529098033905
+%num_progs,4718

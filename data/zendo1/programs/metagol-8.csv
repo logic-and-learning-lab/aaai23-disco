@@ -1,0 +1,4 @@
+zendo(A):-piece(A,B),zendo_1(B).
+zendo_1(A):-blue(A),zendo_2(A).
+zendo_2(A):-contact(A,B),red(B).
+%time,13.327269792556763

@@ -1,0 +1,4 @@
+f([62,94,46,98,8]).
+f(A):-tail(A,B),tail(B,C),tail(C,D),tail(D,E),f(E).
+f(F):-head(F,G),even(G),tail(F,H),head(H,I),geq(G,I),even(I).
+%time,8.57771635055542

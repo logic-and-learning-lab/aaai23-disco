@@ -1,0 +1,4 @@
+f(A,B):-f_1(A),f_2(B).
+f_1(A):-head(A,B),f_2(B).
+f_2(A):-decrement(A,B),geq(A,B).
+%time,0.46958279609680176

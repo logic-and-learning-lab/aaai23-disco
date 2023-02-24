@@ -1,0 +1,4 @@
+f(A):- empty(A).
+f(A):- head(A,B),even(B),tail(A,C),f(C).
+%time,13.023547172546387
+%num_progs,636

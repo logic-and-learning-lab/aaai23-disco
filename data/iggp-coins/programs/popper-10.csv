@@ -1,0 +1,5 @@
+next_cell(A,B,C):- my_pos(E),role(D),c_zerocoins(C),does_jump(A,D,B,E).
+next_cell(A,B,C):- my_pos(E),does_jump(A,F,D,E),c_twocoins(C),does_jump(A,F,D,B).
+next_cell(A,B,C):- role(F),my_true_cell(A,B,C),different(E,B),does_jump(A,F,D,E),different(B,D).
+%time,400.9595260620117
+%num_progs,60585

@@ -1,0 +1,4 @@
+f(A,B):- head(A,B).
+f(A,B):- tail(A,C),tail(C,D),element(D,B),f(C,B).
+%time,11.145049810409546
+%num_progs,1826

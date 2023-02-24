@@ -1,0 +1,16 @@
+f(A,B):-movie(C,B),movie(C,A).
+f(ahubertmulzer,akinkelmartin).
+f(adeanstockwell,aaltmanroberti).
+f(aauroraquattrocchi,agrimaldiaurelioi).
+f(amarkusbker,agutjahrrainer).
+f(agabriellelazure,aromeclaudemichel).
+f(aivandimov,amarinovichanton).
+f(aclaudiamessner,azensmichael).
+f(akarinthaler,akinkelmartin).
+f(ajurneesmollett,ametcalfestephen).
+f(atheresascholze,astephanbernhard).
+f(apetyasilyanova,atraykovatanas).
+f(aginachiarelli,ametcalfestephen).
+f(amichalbajor,apunchevborislav).
+f(astanleytucci,apakulaalanj).
+%time,264.38497281074524

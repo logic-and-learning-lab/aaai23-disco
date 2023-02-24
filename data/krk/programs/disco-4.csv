@@ -1,0 +1,3 @@
+f(A):- cell(A,F,C,E),rook(E),white(C),cell(A,G,C,B),king(B),distance(G,F,D),one(D).
+%time,11.078977108001709
+%num_progs,77

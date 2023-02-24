@@ -1,0 +1,3 @@
+f(A,B):- movie(C,A),gender(A,D),movie(C,B),gender(B,D).
+%time,2.0516319274902344
+%num_progs,36

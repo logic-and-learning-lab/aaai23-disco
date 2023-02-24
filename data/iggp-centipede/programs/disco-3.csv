@@ -1,0 +1,4 @@
+next_control(A,B):- agent_white(B),agent_black(C),true_control(A,C).
+next_control(A,B):- agent_black(B),true_control(A,C),agent_white(C).
+%time,9.822157144546509
+%num_progs,947

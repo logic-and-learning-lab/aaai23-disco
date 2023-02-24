@@ -1,0 +1,10 @@
+f(A,B):-movie(C,B),movie(C,A).
+f(avannifois,asciveresmarianna).
+f(akonstanzebreitebner,astephanbernhard).
+f(atommikulla,akinkelmartin).
+f(atizianalodato,abattiatofranco).
+f(amarenschumacher,aengelhardtwilhelm).
+f(asotirmaynolovski,apunchevborislav).
+f(ahorstkummeth,aklischstefan).
+f(adenzelwashington,apakulaalanj).
+%time,152.12374782562256

@@ -1,0 +1,10 @@
+f(A):- has_car(A,C),roof_open(C),has_load(C,B),three_load(B).
+f(A):- has_car(A,B),has_car(A,C),roof_closed(C),roof_open(B).
+f(A):- has_car(A,B),roof_open(B),has_load(B,C),hexagon(C),has_load(B,D),zero_load(D).
+f(A):- has_car(A,B),roof_open(B),has_load(B,C),has_load(B,D),inverted_triangle(D),hexagon(C).
+f(A):- has_car(A,B),roof_open(B),has_car(A,D),has_load(D,C),one_load(C),rectangle(C).
+f(A):- has_car(A,B),short(B),has_car(A,D),roof_open(B),has_load(D,C),zero_load(C).
+f(A):- has_car(A,B),has_load(B,C),zero_load(C),has_car(A,D),short(D),roof_open(B).
+f(A):- has_car(A,E),has_car(A,B),has_load(B,C),triangle(C),has_load(E,D),rectangle(D).
+%time,24.175397872924805
+%num_progs,2331

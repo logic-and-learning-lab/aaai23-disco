@@ -1,0 +1,8 @@
+goal(6,robot,0).
+goal(4,robot,0).
+goal(3,robot,0).
+goal(22,robot,100).
+goal(2,robot,0).
+goal(19,robot,0).
+goal(A,B,C):-my_true(A,D),my_succ(D,E),int_0(C).
+%time,37.386971950531006

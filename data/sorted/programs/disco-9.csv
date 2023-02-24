@@ -1,0 +1,4 @@
+f(A):- tail(A,B),empty(B).
+f(A):- tail(A,B),head(B,C),head(A,D),geq(C,D),f(B).
+%time,27.1701819896698
+%num_progs,1540

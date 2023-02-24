@@ -1,0 +1,13 @@
+f(A,B):-movie(C,A),movie(C,B).
+f(afirminerichard,aladogedominique).
+f(afranoisechristophe,abonnetchristiani).
+f(ajannowicki,apunchevborislav).
+f(alyubomirbobchevski,asurchadzhievstefani).
+f(ajaimzwoolvett,ametcalfestephen).
+f(amarenschumacher,akinkelmartin).
+f(anevenakokanova,apunchevborislav).
+f(astoychomazgalov,asurchadzhievstefani).
+f(akarinthaler,agutjahrrainer).
+f(aludwigbriand,aapprederisfranck).
+f(accilecassel,aladogedominique).
+%time,238.19790720939636

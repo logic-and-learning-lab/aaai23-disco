@@ -1,0 +1,4 @@
+f(A):-tail(A,B),f(B).
+f([34,35,55,62,66,86,96]).
+f(C):-head(C,D),tail(C,E),head(E,F),geq(F,D),tail(E,G),head(G,H),decrement(H,F).
+%time,6.129744052886963

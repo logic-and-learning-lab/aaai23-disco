@@ -1,0 +1,4 @@
+f(A,B):- empty(A),zero(B).
+f(A,B):- tail(A,D),f(D,C),increment(C,B).
+%time,77.85366225242615
+%num_progs,2478

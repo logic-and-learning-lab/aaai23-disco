@@ -1,0 +1,3 @@
+f(A):- has_car(A,B),has_car(A,C),three_wheels(C),long(B),two_wheels(B).
+%time,3.7781267166137695
+%num_progs,562

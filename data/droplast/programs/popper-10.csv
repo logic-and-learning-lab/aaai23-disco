@@ -1,0 +1,4 @@
+f(A,B):- tail(A,B).
+f(A,B):- tail(A,C),head(A,E),f(C,D),cons(E,D,B).
+%time,25.53026509284973
+%num_progs,392
